@@ -5,9 +5,9 @@ services:
     image: lscr.io/linuxserver/jellyfin:latest
     container_name: jellyfin
     environment:
-      - PUID=1000
-      - PGID=1000
-      - TZ=America/Toronto
+      - PUID=$PUID
+      - PGID=$PGID
+      - TZ=$TZ
     volumes:
       - ./appdata/jellyfin:/config
       - ./media/tvseries:/data/tvshows
