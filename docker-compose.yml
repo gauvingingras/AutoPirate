@@ -24,7 +24,7 @@ services:
     volumes:
       - ./appdata/jellyfin:/config
       - ./media/tvseries:/data/tvshows
-      - ./media/movies:/data/movies
+      - $MOVIES:/data/movies
     ports:
       - 8096:8096
     restart: unless-stopped
@@ -53,8 +53,8 @@ services:
       - TP_THEME=$TP_THEME
     volumes:
       - ./appdata/radarr:/config
-      - ./media/movies:/movies
-      - ./downloads:/downloads
+      - $MOVIES:/movies
+      - $DOWNLOADS:/downloads
     ports:
       - 7878:7878
     restart: unless-stopped
@@ -86,7 +86,7 @@ services:
       - TP_THEME=$TP_THEME
     volumes:
       - ./appdata/qbittorrent:/config
-      - ./downloads:/downloads
+      - $DOWNLOADS:/downloads
     ports:
       - 8080:8080
       - 6881:6881
