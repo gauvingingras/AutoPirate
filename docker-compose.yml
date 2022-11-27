@@ -1,6 +1,19 @@
 version: "3.9"
 
 services:
+  organizr:
+    image: organizr/organizr:latest
+    container_name: organizr
+    environment:
+      - PUID=$PUID
+      - PGID=$PGID
+      - fpm="true"
+    volumes:
+      - ./appdata/organizr:/config
+    ports:
+      - 80:80
+    restart: unless-stopped
+
   jellyfin:
     image: lscr.io/linuxserver/jellyfin:latest
     container_name: jellyfin
