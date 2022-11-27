@@ -41,3 +41,16 @@ services:
     ports:
       - 3579:3579
     restart: unless-stopped
+
+  radarr:
+    image: lscr.io/linuxserver/radarr:latest
+    container_name: radarr
+    environment:
+      - PUID=$PUID
+      - PGID=$PGID
+      - TZ=$TZ
+    volumes:
+      - ./appdata/radarr:/config
+    ports:
+      - 7878:7878
+    restart: unless-stopped
