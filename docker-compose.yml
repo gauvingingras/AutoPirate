@@ -49,6 +49,8 @@ services:
       - PUID=$PUID
       - PGID=$PGID
       - TZ=$TZ
+      - DOCKER_MODS=ghcr.io/gilbn/theme.park:radarr
+      - TP_THEME=$TP_THEME
     volumes:
       - ./appdata/radarr:/config
       - ./media/movies:/movies
@@ -64,6 +66,8 @@ services:
       - PUID=$PUID
       - PGID=$PGID
       - TZ=$TZ
+      - DOCKER_MODS=ghcr.io/gilbn/theme.park:jackett
+      - TP_THEME=$TP_THEME
     volumes:
       - ./appdata/jackett:/config
     ports:
@@ -78,6 +82,8 @@ services:
       - PGID=$PGID
       - TZ=$TZ
       - WEBUI_PORT=8080
+      - DOCKER_MODS=ghcr.io/gilbn/theme.park:qbittorrent
+      - TP_THEME=$TP_THEME
     volumes:
       - ./appdata/qbittorrent:/config
       - ./downloads:/downloads
