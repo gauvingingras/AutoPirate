@@ -3,6 +3,7 @@ A collection of applications that can all be installed using Docker that allow m
 
 ## Applications Overview
 * [Jellyfin](https://github.com/jellyfin/jellyfin)
+* [Lidarr](https://github.com/Lidarr/Lidarr)
 * [Ombi](https://github.com/Ombi-app/Ombi)
 * [Organizr](https://github.com/causefx/Organizr)
 * [Prowlarr](https://github.com/Prowlarr/Prowlarr)
@@ -15,6 +16,7 @@ A collection of applications that can all be installed using Docker that allow m
 .
 ├── appdata
 │   ├── jellyfin
+│   ├── lidarr
 │   ├── ombi
 │   ├── organizr
 │   ├── prowlarr
@@ -24,5 +26,6 @@ A collection of applications that can all be installed using Docker that allow m
 ├── downloads
 └── media
     ├── movies
+    ├── music
     └── tvseries
 ```

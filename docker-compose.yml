@@ -15,6 +15,23 @@ services:
     ports:
       - 8096:8096
     restart: unless-stopped
+
+  lidarr:
+    image: lscr.io/linuxserver/lidarr:latest
+    container_name: lidarr
+    environment:
+      - PUID=$PUID
+      - PGID=$PGID
+      - TZ=$TZ
+      - DOCKER_MODS=ghcr.io/gilbn/theme.park:lidarr
+      - TP_THEME=$TP_THEME
+    volumes:
+      - $APPDATA/lidarr:/config
+      - $MUSIC:/music
+      - $DOWNLOADS:/downloads
+    ports:
+      - 8686:8686
+    restart: unless-stopped
     
   ombi:
     image: lscr.io/linuxserver/ombi:latest
