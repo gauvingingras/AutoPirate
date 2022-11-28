@@ -1,11 +1,9 @@
 # AutoPirate
 A collection of applications that can all be installed using Docker that allow me to find, download, monitor and consume various media (movies, tv shows, music...).
 
-## Mobile Applications
-* [Finamp](https://github.com/jmshrv/finamp)
-* [LunaSea](https://github.com/JagandeepBrar/LunaSea)
-
 ## Stack Overview
+
+### Applications
 * [Jellyfin](https://github.com/jellyfin/jellyfin)
 * [Lidarr](https://github.com/Lidarr/Lidarr)
 * [Ombi](https://github.com/Ombi-app/Ombi)
@@ -15,7 +13,7 @@ A collection of applications that can all be installed using Docker that allow m
 * [Radarr](https://github.com/Radarr/Radarr)
 * [Sonarr](https://github.com/Sonarr/Sonarr)
 
-## File System Structure
+### File System Structure
 ```bash
 .
 ├── appdata
@@ -33,3 +31,7 @@ A collection of applications that can all be installed using Docker that allow m
     ├── music
     └── tvseries
 ```
+
+## Mobile Applications
+* [Finamp](https://github.com/jmshrv/finamp)
+* [LunaSea](https://github.com/JagandeepBrar/LunaSea)
