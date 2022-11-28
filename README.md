@@ -3,6 +3,7 @@ A collection of applications that can all be installed using Docker that allow m
 
 ## Mobile Applications
 * [Finamp](https://github.com/jmshrv/finamp)
+* [LunaSea](https://github.com/JagandeepBrar/LunaSea)
 
 ## Stack Overview
 * [Jellyfin](https://github.com/jellyfin/jellyfin)
