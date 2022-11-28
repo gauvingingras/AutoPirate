@@ -1,4 +1,6 @@
 # AutoPirate
+
+## Directory Structure
 ```bash
 .
 ├── appdata
