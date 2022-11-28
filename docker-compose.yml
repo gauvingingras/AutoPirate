@@ -13,6 +13,7 @@ services:
       - $TVSHOWS:/data/tvshows
       - $MOVIES:/data/movies
       - $MUSIC:/data/music
+      - $BOOKS:/data/books
     ports:
       - 8096:8096
     restart: unless-stopped
@@ -109,6 +110,23 @@ services:
       - $DOWNLOADS:/downloads
     ports:
       - 7878:7878
+    restart: unless-stopped
+
+  readarr:
+    image: lscr.io/linuxserver/readarr:develop
+    container_name: readarr
+    environment:
+      - PUID=$PUID
+      - PGID=$PGID
+      - TZ=$TZ
+      - DOCKER_MODS=ghcr.io/gilbn/theme.park:readarr
+      - TP_THEME=$TP_THEME
+    volumes:
+      - $APPDATA/readarr:/config
+      - $BOOKS:/books
+      - $DOWNLOADS:/downloads
+    ports:
+      - 8787:8787
     restart: unless-stopped
 
   sonarr:

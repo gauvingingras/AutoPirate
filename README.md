@@ -11,6 +11,7 @@ A collection of applications that can all be installed using Docker that allow m
 * [Prowlarr](https://github.com/Prowlarr/Prowlarr)
 * [qBittorrent](https://github.com/qbittorrent/qBittorrent)
 * [Radarr](https://github.com/Radarr/Radarr)
+* [Readarr](https://github.com/Readarr/Readarr)
 * [Sonarr](https://github.com/Sonarr/Sonarr)
 
 ### File System Structure
@@ -24,9 +25,11 @@ A collection of applications that can all be installed using Docker that allow m
 │   ├── prowlarr
 │   ├── qbittorrent
 │   ├── radarr
+│   ├── readarr
 │   └── sonarr
 ├── downloads
 └── media
+    ├── books
     ├── movies
     ├── music
     └── tvseries
@@ -34,4 +37,5 @@ A collection of applications that can all be installed using Docker that allow m
 
 ## Mobile Applications
 * [Finamp](https://github.com/jmshrv/finamp)
+* [JellyBook](https://github.com/Kara-Zor-El/JellyBook)
 * [LunaSea](https://github.com/JagandeepBrar/LunaSea)
