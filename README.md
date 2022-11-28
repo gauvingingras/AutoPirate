@@ -1,7 +1,10 @@
 # AutoPirate
-A collection of applications that can all be installed using Docker that allow me to find, download and monitor various media (movies, tv shows, music...) and consume it.
+A collection of applications that can all be installed using Docker that allow me to find, download, monitor and consume various media (movies, tv shows, music...).
 
-## Applications Overview
+## Mobile Applications
+* [Finamp](https://github.com/jmshrv/finamp)
+
+## Stack Overview
 * [Jellyfin](https://github.com/jellyfin/jellyfin)
 * [Lidarr](https://github.com/Lidarr/Lidarr)
 * [Ombi](https://github.com/Ombi-app/Ombi)
