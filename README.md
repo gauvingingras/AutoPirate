@@ -37,5 +37,5 @@ A collection of applications that can all be installed using Docker that allow m
 
 ## Mobile Applications
 * [Finamp](https://github.com/jmshrv/finamp)
-* [JellyBook](https://github.com/Kara-Zor-El/JellyBook)
+* [JellyBook](https://github.com/Kara-Zor-El/JellyBook) - Currently in development, requires sideloading, might not work properly yet
 * [LunaSea](https://github.com/JagandeepBrar/LunaSea)
