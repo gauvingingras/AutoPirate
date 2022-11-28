@@ -10,7 +10,7 @@ services:
       - TZ=$TZ
     volumes:
       - $APPDATA/jellyfin:/config
-      - ./media/tvseries:/data/tvshows
+      - $TVSHOWS:/data/tvshows
       - $MOVIES:/data/movies
     ports:
       - 8096:8096
@@ -91,4 +91,21 @@ services:
       - $DOWNLOADS:/downloads
     ports:
       - 7878:7878
+    restart: unless-stopped
+
+  sonarr:
+    image: lscr.io/linuxserver/sonarr:latest
+    container_name: sonarr
+    environment:
+      - PUID=$PUID
+      - PGID=$PGID
+      - TZ=$TZ
+      - DOCKER_MODS=ghcr.io/gilbn/theme.park:sonarr
+      - TP_THEME=$TP_THEME
+    volumes:
+      - $APPDATA/sonarr:/config
+      - $TVSHOWS:/tv
+      - $DOWNLOADS:/downloads
+    ports:
+      - 8989:8989
     restart: unless-stopped

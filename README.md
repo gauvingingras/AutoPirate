@@ -8,6 +8,7 @@ A collection of applications that can all be installed using Docker that allow m
 * [Prowlarr](https://github.com/Prowlarr/Prowlarr)
 * [qBittorrent](https://github.com/qbittorrent/qBittorrent)
 * [Radarr](https://github.com/Radarr/Radarr)
+* [Sonarr](https://github.com/Sonarr/Sonarr)
 
 ## File System Structure
 ```bash
@@ -18,10 +19,10 @@ A collection of applications that can all be installed using Docker that allow m
 │   ├── organizr
 │   ├── prowlarr
 │   ├── qbittorrent
-│   └── radarr
+│   ├── radarr
+│   └── sonarr
 ├── downloads
 └── media
     ├── movies
     └── tvseries
-
 ```
