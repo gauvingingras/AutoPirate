@@ -10,10 +10,7 @@ services:
       - TZ=$TZ
     volumes:
       - $APPDATA/jellyfin:/config
-      - $TVSHOWS:/data/tvshows
-      - $MOVIES:/data/movies
-      - $MUSIC:/data/music
-      - $BOOKS:/data/books
+      - $MEDIA:/data
     ports:
       - 8096:8096
     restart: unless-stopped
