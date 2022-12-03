@@ -13,6 +13,7 @@ A collection of applications that can all be installed using Docker that allow m
 * [Radarr](https://github.com/Radarr/Radarr)
 * [Readarr](https://github.com/Readarr/Readarr)
 * [Sonarr](https://github.com/Sonarr/Sonarr)
+* [TubeSync](https://github.com/meeb/tubesync)
 
 ### File System Structure
 ```bash
@@ -26,9 +27,11 @@ A collection of applications that can all be installed using Docker that allow m
 │   ├── qbittorrent
 │   ├── radarr
 │   ├── readarr
-│   └── sonarr
+│   ├── sonarr
+│   └── tubesync
 ├── downloads
 └── media
+    ├── audio
     ├── books
     ├── movies
     ├── music

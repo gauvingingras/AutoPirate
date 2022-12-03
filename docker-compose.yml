@@ -142,3 +142,17 @@ services:
     ports:
       - 8989:8989
     restart: unless-stopped
+
+  tubesync:
+    image: ghcr.io/meeb/tubesync:latest
+    container_name: tubesync
+    environment:
+      - PUID=$PUID
+      - PGID=$PGID
+      - TZ=$TZ
+    volumes:
+      - $APPDATA/tubesync:/config
+      - $MEDIA:/downloads
+    ports:
+      - 4848:4848
+    restart: unless-stopped
