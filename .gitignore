@@ -1,57 +1,15 @@
-# appdata
-!appdata/
-appdata/*
+# Ignore everything
+*
 
-## Jellyfin
-!appdata/jellyfin/
-appdata/jellyfin/*
-!appdata/jellyfin/README.md
+# Keep the following files
+!.bashrc
+!.env
+!.gitignore
+!docker-compose.yml
+!README.md
 
-## Lidarr
-!appdata/lidarr/
-appdata/lidarr/*
-!appdata/lidarr/README.md
-
-## Ombi
-!appdata/ombi/
-appdata/ombi/*
-!appdata/ombi/README.md
-
-## Organizr
-!appdata/organizr/
-appdata/organizr/*
-!appdata/organizr/README.md
-
-## Prowlarr
-!appdata/prowlarr/
-appdata/prowlarr/*
-!appdata/prowlarr/README.md
-
-## qBittorrent
-!appdata/qbittorrent/
-appdata/qbittorrent/*
-!appdata/qbittorrent/README.md
-
-## Radarr
-!appdata/radarr/
-appdata/radarr/*
-!appdata/radarr/README.md
-
-## Readarr
-!appdata/readarr/
-appdata/readarr/*
-!appdata/readarr/README.md
-
-## Sonarr
-!appdata/sonarr/
-appdata/sonarr/*
-!appdata/sonarr/README.md
-
-## TubeSync
-!appdata/tubesync/
-appdata/tubesync/*
-!appdata/tubesync/README.md
-
-# Directories
-downloads
-media
+# Keep the README.md file from all the subdirectories in the appdata directory
+!appdata
+!appdata/**
+appdata/*/*
+!**/README.md
