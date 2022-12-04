@@ -1,1 +1,1 @@
-TEST lidarr
+# [Lidarr](https://github.com/Lidarr/Lidarr)

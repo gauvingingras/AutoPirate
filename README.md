@@ -4,16 +4,16 @@ A collection of applications that can all be installed using Docker that allow m
 ## Stack Overview
 
 ### Applications
-* [Jellyfin](https://github.com/jellyfin/jellyfin)
-* [Lidarr](https://github.com/Lidarr/Lidarr)
-* [Ombi](https://github.com/Ombi-app/Ombi)
-* [Organizr](https://github.com/causefx/Organizr)
-* [Prowlarr](https://github.com/Prowlarr/Prowlarr)
-* [qBittorrent](https://github.com/qbittorrent/qBittorrent)
-* [Radarr](https://github.com/Radarr/Radarr)
-* [Readarr](https://github.com/Readarr/Readarr)
-* [Sonarr](https://github.com/Sonarr/Sonarr)
-* [TubeSync](https://github.com/meeb/tubesync)
+* [Jellyfin](https://github.com/gauvingingras/AutoPirate/tree/master/appdata/jellyfin)
+* [Lidarr](https://github.com/gauvingingras/AutoPirate/tree/master/appdata/lidarr)
+* [Ombi](https://github.com/gauvingingras/AutoPirate/tree/master/appdata/ombi)
+* [Organizr](https://github.com/gauvingingras/AutoPirate/tree/master/appdata/organizr)
+* [Prowlarr](https://github.com/gauvingingras/AutoPirate/tree/master/appdata/prowlarr)
+* [qBittorrent](https://github.com/gauvingingras/AutoPirate/tree/master/appdata/qbittorrent)
+* [Radarr](https://github.com/gauvingingras/AutoPirate/tree/master/appdata/radarr)
+* [Readarr](https://github.com/gauvingingras/AutoPirate/tree/master/appdata/readarr)
+* [Sonarr](https://github.com/gauvingingras/AutoPirate/tree/master/appdata/sonarr)
+* [TubeSync](https://github.com/gauvingingras/AutoPirate/tree/master/appdata/tubesync)
 
 ### File System Structure
 ```bash
