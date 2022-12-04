@@ -4,16 +4,16 @@ A collection of applications that can all be installed using Docker that allow m
 ## Stack Overview
 
 ### Applications
-* [Jellyfin](appdata/jellyfin)
-* [Lidarr](https://github.com/gauvingingras/AutoPirate/tree/master/appdata/lidarr)
-* [Ombi](https://github.com/gauvingingras/AutoPirate/tree/master/appdata/ombi)
-* [Organizr](https://github.com/gauvingingras/AutoPirate/tree/master/appdata/organizr)
-* [Prowlarr](https://github.com/gauvingingras/AutoPirate/tree/master/appdata/prowlarr)
-* [qBittorrent](https://github.com/gauvingingras/AutoPirate/tree/master/appdata/qbittorrent)
-* [Radarr](https://github.com/gauvingingras/AutoPirate/tree/master/appdata/radarr)
-* [Readarr](https://github.com/gauvingingras/AutoPirate/tree/master/appdata/readarr)
-* [Sonarr](https://github.com/gauvingingras/AutoPirate/tree/master/appdata/sonarr)
-* [TubeSync](https://github.com/gauvingingras/AutoPirate/tree/master/appdata/tubesync)
+* [Jellyfin](appdata/jellyfin): media server
+* [Lidarr](appdata/lidarr): music collection manager
+* [Ombi](appdata/ombi): media requests
+* [Organizr](appdata/organizr): dashboard
+* [Prowlarr](appdata/prowlarr): indexers manager
+* [qBittorrent](appdata/qbittorrent): torrent client
+* [Radarr](appdata/radarr): movies collection manager
+* [Readarr](appdata/readarr): books collection manager
+* [Sonarr](appdata/sonarr): tv series collection manager
+* [TubeSync](appdata/tubesync): YouTube music and video manager
 
 ### File System Structure
 ```bash
@@ -39,5 +39,4 @@ A collection of applications that can all be installed using Docker that allow m
 
 ## Mobile Applications
 * [Finamp](https://github.com/jmshrv/finamp)
-* [JellyBook](https://github.com/Kara-Zor-El/JellyBook) - Currently in development, requires sideloading, might not work properly yet
 * [LunaSea](https://github.com/JagandeepBrar/LunaSea)
