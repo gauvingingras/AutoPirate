@@ -1,11 +1,57 @@
-# Directories
+# appdata
 !appdata/
-
 appdata/*
-!appdata/jellyfin/
 
+## Jellyfin
+!appdata/jellyfin/
 appdata/jellyfin/*
 !appdata/jellyfin/README.md
 
+## Lidarr
+!appdata/lidarr/
+appdata/lidarr/*
+!appdata/lidarr/README.md
+
+## Ombi
+!appdata/ombi/
+appdata/ombi/*
+!appdata/ombi/README.md
+
+## Organizr
+!appdata/organizr/
+appdata/organizr/*
+!appdata/organizr/README.md
+
+## Prowlarr
+!appdata/prowlarr/
+appdata/prowlarr/*
+!appdata/prowlarr/README.md
+
+## qBittorrent
+!appdata/qbittorrent/
+appdata/qbittorrent/*
+!appdata/qbittorrent/README.md
+
+## Radarr
+!appdata/radarr/
+appdata/radarr/*
+!appdata/radarr/README.md
+
+## Readarr
+!appdata/readarr/
+appdata/readarr/*
+!appdata/readarr/README.md
+
+## Sonarr
+!appdata/sonarr/
+appdata/sonarr/*
+!appdata/sonarr/README.md
+
+## TubeSync
+!appdata/tubesync/
+appdata/tubesync/*
+!appdata/tubesync/README.md
+
+# Directories
 downloads
 media
