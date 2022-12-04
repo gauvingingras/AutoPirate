@@ -1,8 +1,4 @@
 # Directories
-#appdata
-downloads
-media
-
 !appdata/
 
 appdata/*
@@ -10,3 +6,6 @@ appdata/*
 
 appdata/jellyfin/*
 !appdata/jellyfin/README.md
+
+downloads
+media
