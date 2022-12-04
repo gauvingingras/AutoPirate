@@ -34,7 +34,6 @@ A collection of applications that can all be installed using Docker that allow m
     ├── audio
     ├── books
     ├── movies
-    ├── music
     └── tvseries
 ```
 
