@@ -4,7 +4,7 @@ A collection of applications that can all be installed using Docker that allow m
 ## Stack Overview
 
 ### Applications
-* [Jellyfin](https://github.com/gauvingingras/AutoPirate/tree/master/appdata/jellyfin)
+* [Jellyfin](appdata/jellyfin)
 * [Lidarr](https://github.com/gauvingingras/AutoPirate/tree/master/appdata/lidarr)
 * [Ombi](https://github.com/gauvingingras/AutoPirate/tree/master/appdata/ombi)
 * [Organizr](https://github.com/gauvingingras/AutoPirate/tree/master/appdata/organizr)
